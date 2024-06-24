@@ -1,0 +1,38 @@
+{
+  "name": "obesidadpr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
+    "@expo/metro-runtime": "~3.2.1",
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/stack": "^6.3.29",
+    "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "expo": "~51.0.11",
+    "expo-status-bar": "~1.12.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.4.1",
+    "react": "18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "0.74.2",
+    "react-native-paper": "^5.12.3",
+    "react-native-web": "^0.19.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.7"
+  },
+  "private": true
+}
